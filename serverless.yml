@@ -14,3 +14,9 @@ functions:
       - httpApi:
           path: /
           method: get
+  bye:
+    handler: handler.bye
+    events:
+      - httpApi:
+          path: /bye
+          method: get
