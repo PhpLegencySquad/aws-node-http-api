@@ -21,9 +21,3 @@ functions:
       - httpApi:
           path: /bye
           method: get
-  heyyou:
-    handler: handler.heyyou
-    events:
-      - httpApi:
-          path: /heyyou
-          method: get
