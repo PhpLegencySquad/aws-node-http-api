@@ -27,3 +27,16 @@ module.exports.bye = async (event) => {
     ),
   };
 };
+
+module.exports.heyyou = async (event) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify(
+      {
+        message: "What are you doing!",
+      },
+      null,
+      2
+    ),
+  };
+};
